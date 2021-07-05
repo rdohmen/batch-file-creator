@@ -1,0 +1,76 @@
+object Form1: TForm1
+  Left = 407
+  Height = 254
+  Top = 310
+  Width = 450
+  Caption = 'Create Batch File'
+  ClientHeight = 254
+  ClientWidth = 450
+  DesignTimePPI = 144
+  LCLVersion = '2.0.6.0'
+  object Label2: TLabel
+    Left = 19
+    Height = 25
+    Top = 96
+    Width = 127
+    Caption = 'Program to Run'
+    ParentColor = False
+  end
+  object Edit2: TEdit
+    Left = 22
+    Height = 33
+    Top = 128
+    Width = 154
+    TabOrder = 0
+    Text = 'php astarg.php'
+  end
+  object Edit3: TEdit
+    Left = 219
+    Height = 33
+    Top = 128
+    Width = 120
+    TabOrder = 1
+    Text = '*.php'
+  end
+  object Label3: TLabel
+    Left = 219
+    Height = 25
+    Top = 96
+    Width = 190
+    Caption = 'Parameters for program'
+    ParentColor = False
+  end
+  object Button1: TButton
+    Left = 22
+    Height = 38
+    Top = 192
+    Width = 203
+    Caption = 'Create Batch File'
+    OnClick = Button1Click
+    TabOrder = 2
+  end
+  object Label1: TLabel
+    Left = 18
+    Height = 25
+    Top = 13
+    Width = 176
+    Caption = 'File name of Batch File'
+    ParentColor = False
+  end
+  object Edit1: TEdit
+    Left = 19
+    Height = 33
+    Top = 40
+    Width = 381
+    TabOrder = 3
+    Text = 'exec.bat'
+  end
+  object SaveDialog1: TSaveDialog
+    left = 355
+    top = 152
+  end
+  object SelectDirectoryDialog1: TSelectDirectoryDialog
+    left = 256
+    top = 192
+  end
+end
